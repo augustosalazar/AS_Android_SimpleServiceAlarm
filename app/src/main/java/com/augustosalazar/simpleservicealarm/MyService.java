@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.os.SystemClock;
 import android.util.Log;
+import android.widget.Toast;
 
 public class MyService  extends Service {
 
@@ -22,6 +23,8 @@ public class MyService  extends Service {
     private Notification notification;
     private String TAG = MyService.class.getSimpleName();
     private int counter = 0;
+
+
 
     @Override
     public void onCreate() {
